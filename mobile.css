@@ -1,0 +1,37 @@
+@media only screen and (max-width: 768px) {
+  #nav {
+    padding: 10px 0;
+  }
+
+  #nleft,
+  #nright {
+    gap: 20px;
+  }
+
+  #nav a {
+    display: none;
+  }
+
+  #hero {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #heroleft .elem {
+    height: 20vw;
+  }
+
+  #heroleft .elem h1 {
+    font-size: 80px;
+  }
+
+  #heroleft button {
+    margin-top: 5vw;
+    font-size: 20px;
+  }
+
+  #heroright {
+    display: none;
+  }
+}
